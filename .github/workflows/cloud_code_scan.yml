@@ -10,7 +10,7 @@ jobs:
         with:
           parent_uid: ${{ secrets.ALI_PID }}
           private_key: ${{ secrets.ALI_PK }}
-          templateId: 782 # 代码安全
+          templateId: 5603652 
   sca:
     runs-on: ubuntu-latest
     steps:
@@ -19,4 +19,4 @@ jobs:
         with:
           parent_uid: ${{ secrets.ALI_PID }}
           private_key: ${{ secrets.ALI_PK }}
-          templateId: 783
+          templateId: 9809103
